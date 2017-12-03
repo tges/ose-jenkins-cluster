@@ -1,6 +1,5 @@
 FROM 192.168.137.111:5000/openshift3/jenkins-2-rhel7
 
-RUN mkdir /opt/openshift/
 ADD config-cloud.xml credentials.xml /opt/openshift/
 
 # Install additional plugins and modify files
