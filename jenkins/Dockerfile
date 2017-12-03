@@ -1,4 +1,4 @@
-FROM 192.168.137.101:5000/openshift3/jenkins-2-rhel7
+FROM 192.168.137.111:5000/openshift3/jenkins-2-rhel7
 
 ADD config-cloud.xml credentials.xml /opt/openshift/
 
